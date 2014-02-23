@@ -17,11 +17,11 @@ install wget --enable-iri
 
 # Install RingoJS and Narwhal
 # Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-install ringojs
-install narwhal
+#install ringojs
+#install narwhal
 
 # Install more recent versions of some OS X tools
-install vim --override-system-vi
+#install vim --override-system-vi
 tap homebrew/dupes
 install homebrew/dupes/grep
 tap josegonzalez/homebrew-php
@@ -39,7 +39,7 @@ install lynx
 install node
 install pigz
 install rename
-install rhino
+#install rhino
 install tree
 install webkit2png
 install zopfli
